@@ -1,5 +1,5 @@
-# MsgSaverProBot - chat bot
-It is repository for chat bot: [@MsgSaverProBot](https://t.me/MsgSaverProBot)
+# TGViewsBot - chat bot
+It is repository for chat bot: [@TGViewsBot](https://t.me/TGViewsBot)
 
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.

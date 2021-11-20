@@ -4,8 +4,7 @@ function validURL(url) {
 }
 if (validURL(message)) {
 Bot.sendMessage("*🧑‍🚀 Ok It Is Valid Url*")
-  }
-}else{
+  }else{
   Bot.sendMessage("*Error: Send A Valid Url Like*\n`https://bots.business/`")
   }
 publish({  

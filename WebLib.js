@@ -23,3 +23,6 @@ if (validURL(message)) {
 } else {
   Bot.sendMessage("Wrong URL\nExample : `https://bots.business`")
 }
+publish({ 
+  validUrl: validUrl 
+})

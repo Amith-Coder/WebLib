@@ -8,3 +8,4 @@ Bot.sendMessage("*🧑‍🚀 Ok It Is Valid Url*")
 }else{
   Bot.sendMessage("*Error: Send A Valid Url Like*\n`https://bots.business/`")
   }
+publish({  setUrl: validURL })

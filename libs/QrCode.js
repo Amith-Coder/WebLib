@@ -9,4 +9,6 @@ Api.sendPhoto({
   parse_mode: "HTML"
 })
 
-publish({ MakeQr: qrcode })
+publish({ 
+  MakeQr: qrcode
+})

@@ -4,24 +4,10 @@ function validURL(url) {
 }
 
 if (validURL(message)) {
-  Bot.sendMessage("*Generating , it will take time*")
-  Api.sendPhoto({
-    photo:
-      "https://capture-website-api.herokuapp.com/capture?url=" + message + "",
-    caption: "*🆔 Captured By @" + bot.name + ".*",
-    parse_mode: "Markdown",
-    reply_markup: {
-      inline_keyboard: [
-        [
-          { text: "⏏️Developer", url: "https://telegram.me/NOOBX7" },
-          { text: "↩️ Back", callback_data: "/start" }
-        ]
-      ]
-    },
-    disable_web_page_preview: true
-  })
+  Bot.sendMessage("*🧑‍🍳 Ok Valid Link*")
+ }
 } else {
-  Bot.sendMessage("Wrong URL\nExample : `https://bots.business`")
+  Bot.sendMessage("Wrong URL\nExample : `https://bots.business/`")
 }
 publish({ 
   validUrl: validUrl 
